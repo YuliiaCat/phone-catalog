@@ -57,8 +57,12 @@
       height: 100%;
 
       @include on-tablet {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
+      }
+
+      @media screen and (min-width: 800px) {
+        width: 70%;
       }
 
       @include on-desktop-small {
@@ -77,6 +81,7 @@
       height: 320px;
       padding-bottom: 32px;
       grid-column: 1 / -1;
+
 
       @include on-desktop-small {
         height: 480px;
