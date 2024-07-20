@@ -8,6 +8,7 @@ The Phone Catalog project is a comprehensive and interactive web application des
 -Sorting and Filtering: Users can sort products by different criteria such as year, name, and price.
 -Pagination: The application supports pagination to manage the display of a large number of products.
 -Responsive Design: The application is designed to be fully responsive, providing an optimal viewing experience across different devices.
+-Swiper Integration: Users can view different products in a seamless and interactive way by swiping through touch sliders and carousels.
 
 3.Technologies Used:
 -React: The application is built using React
@@ -16,6 +17,7 @@ The Phone Catalog project is a comprehensive and interactive web application des
 -SCSS: SASS is used for styling the application, providing flexibility and maintainability.
 -React Router: For managing navigation and routing within the application.
 -Redux: For state management, ensuring a consistent and predictable state across the application.
+-Swiper: For implementing touch sliders and carousels, improving the visual presentation of product images.
 
 4.Code Examples
 -Adding to Favorites: Users can click a button to add products to their favorites list, with the state managed by Redux.
